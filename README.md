@@ -10,17 +10,15 @@ This repository contains the files to create an AWS Robo Advisor that provides p
 
 Programming Language: Python 3.7
 
-Libraries: DateTime, DateNull
+Libraries: DateTime, dataclasses, Typing, pandas, hashlib
 
-Frameworks: AWS Lex, AWS Lambda
+Frameworks: Streamlit
 
 Dependencies: N/A
 
 Operating System: Windows 10
 
-**Installation Guide** To run this application please follow the following steps:
-
-*See videos in "Outline and Function Videos" section on how to create and test the Bot/Lambda. Not necessary to create multiple bots.*
+**Installation Guide** 
 
 1) Clone the repository
 2)
