@@ -4,7 +4,7 @@
 
 ![markdown-image](blockchain.jpg)
 
-This repository contains the files to create an AWS Robo Advisor that provides portfolios to invest in. This advisor will, when launched, will be available to prospective and current customers 24/7. 
+This repository contains the files to create a blockchain-based ledger system. Users will be able to transfer money between senders and receviers, as well as, verify the integrity of the data in the ledger. Users can also view any past transactions in the block inspector section on the left-hand side of the page. 
 
 **Technologies** 
 
@@ -21,7 +21,18 @@ Operating System: Windows 10
 **Installation Guide** 
 
 1) Clone the repository
-2)
+2) Open up your python CLI and activate the 'dev', or other appropriate, environment. Python version 3.7.10 needs to be used.
+3) Navigate to the "Blockchain_Project" folder and open the folder labeled "Starter_Code". 
+4) When in the starter code folder, run the command "streamlit run Final_pychain.py"
+5) When the browser page has loaded users will be able to input basic information and upload it to the chain. 
+
+**Webpage**
+
+This is a screenshot of the webpage when it is first opened.
+![markdown-image](Blockchain2.PNG)
+
+This is a screenshot of a transaction being entered and verified. Looking at the Block Inspector section, users can see the new transaction in the block.
+![markdown-image](Blockchain3.PNG)
 
 **Contributors**
 
