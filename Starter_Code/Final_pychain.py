@@ -184,6 +184,7 @@ Receiver = str(st.text_input("Receiver"))
 # Add an input area where you can get a value for `amount` from the user.
 Amount = st.number_input("Amount")
 
+# Add a personalized creator ID
 creator_id = st.text_input("Creator ID")
 
 if st.button("Add Block"):
